@@ -1,0 +1,25 @@
+:root{
+    --green-light: #04C35C;
+    --purple-light:#2B6CB0;
+    --white: #FFFFFF;
+    --white-200: #F7FAFC;
+    --gray: #1A202C;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white);
+    -webkit-font-smoothing: antialised;
+}
+
+body, input, textare, button {
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Merriweather', serif; */
+    font-weight: 400;
+    font-size: 1rem;
+}
